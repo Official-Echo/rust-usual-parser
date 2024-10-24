@@ -1,0 +1,13 @@
+[package]
+name = "rust-usual-parser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Someone <official-echo@github.com>"]
+description = "A project using Pest for parsing"
+license = "MIT"
+repository = "https://github.com/official-echo/rust-usual-parser"
+
+[dependencies]
+anyhow = "1.0.91"
+pest = "2.7.14"
+pest_derive = "2.7.14"

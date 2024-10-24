@@ -1,0 +1,4 @@
+field           = { integer | float | negative_number }
+integer         = { ASCII_DIGIT+ }
+float           = { integer ~ "." ~ integer? | integer }
+negative_number = { "-" ~ float }
